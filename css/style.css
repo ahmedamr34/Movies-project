@@ -1,0 +1,121 @@
+ * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0px;
+ }
+
+ body ,.smallNav {
+    background-color: #000000f2;
+
+ }
+
+ .nav {
+    background-color: teal;
+    position: fixed;
+    offset: 0;
+    height: 100% !important;
+    z-index: 999999999999;
+    left: -195.812px;
+ }
+
+ i {
+    cursor: pointer;
+ }
+
+ .item1,
+ .item2,
+ .item3,
+ .item4,
+ .item5,
+ .item6 {
+    position: relative;
+    top: 150%;
+    right: 150%;
+ }
+
+ .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px;
+ }
+
+ a {
+
+    text-decoration: none;
+    color: #fff;
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ .endIcon {
+    padding: 25px;
+ }
+
+ .item1,
+ .item2,
+ .item3,
+ .item4,
+ .item5,
+ .item6 {
+    padding-top: 35px;
+    padding-right: 25px;
+
+ }
+
+
+ #getMovies,
+ #serch,
+ #inputName,
+ #inputEmail,
+ #inputAge,
+ #inputPass,
+ #inputRePass,
+ #phoneInput,
+ #ageInput {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 3px white;
+ }
+
+
+
+
+ input,
+ input[placeholder] {
+    text-align: center;
+ }
+
+
+ .cap1 {
+    position: relative;
+    overflow: hidden;
+ }
+
+ .layer1 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+ }
+
+ .cap1:hover .layer1 {
+    top: 0%;
+ }
+
+ @media screen and (max-width:900px) {
+    body {
+       padding-left: 60px;
+    }
+ }
